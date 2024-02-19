@@ -1,21 +1,21 @@
-# BITCOIN WALLET
+# BILLETERA BITCOIN
 
-Welcome to _Bitcoin Wallet_, a standalone Bitcoin payment app for your Android device!
+Bienvenido a _Billetera bitcoin_¡Una aplicación de pago de Bitcoin independiente para su dispositivo Android!
 
-This project contains several sub-projects:
+Este proyecto contiene varios subcproyectos:
 
- * __wallet__:
-     The Android app itself. This is probably what you're searching for.
- * __market__:
+ * __Cartera__:
+ La aplicación Android en sí. Esto es probablemente lo que estás buscando. 
+ * __Mercado__:
      App description and promo material for the Google Play app store.
 
 
-### PREREQUISITES FOR BUILDING
+### REQUISITOS PREVIOS PARA LA CONSTRUCCIÓN
 
 You'll need git, a Java 11 SDK and Gradle between 4.4 and 6.9.x for this. We'll assume Ubuntu 22.04 LTS (Jammy Jellyfish)
 for the package installs, which comes with OpenJDK 11 and Gradle 4.4.1 out of the box.
 
-    # first time only
+    # primera vez sólo
     sudo apt install git gradle openjdk-11-jdk
 
 Create a directory for the Android SDK (e.g. `android-sdk`) and point the `ANDROID_HOME` variable to it.
